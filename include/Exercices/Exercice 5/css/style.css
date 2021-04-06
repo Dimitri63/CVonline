@@ -1,0 +1,202 @@
+/* line 3, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+section {
+  padding: 50px 0;
+}
+
+/* line 7, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+.slider {
+  background-image: url(../img/Header-V1.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+/* line 15, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+.slider > p {
+  color: #FFF;
+  text-shadow: 2px 2px #1a1c20;
+}
+
+/* line 20, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+.slider div {
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 10px 60px;
+}
+
+/* line 25, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+.slider div p {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 32, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#categories {
+  background-color: #F9F9F9;
+}
+
+/* line 35, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#categories a {
+  position: relative;
+  margin-bottom: 30px;
+  display: inline-block;
+  background: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  color: #10069f;
+}
+
+/* line 44, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#categories a span {
+  margin: 15px;
+  display: inline-block;
+}
+
+/* line 51, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#ventes {
+  text-align: center;
+  color: #10069f;
+}
+
+/* line 55, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#ventes > div {
+  background-image: url(../img/map.png);
+  padding: 50px 0;
+}
+
+/* line 60, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#ventes h3 {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+/* line 65, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#ventes h3 small {
+  display: block;
+  text-transform: none;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+/* line 73, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#ventes a {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #10069f;
+}
+
+/* line 79, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#ventes .tartiflette {
+  background-color: #10069f;
+  color: #FFF;
+}
+
+/* line 83, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#ventes .tartiflette h3, #ventes .tartiflette a {
+  color: #FFF;
+}
+
+/* line 86, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#ventes .tartiflette h3::after, #ventes .tartiflette a::after {
+  background-color: #FFF;
+}
+
+/* line 92, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#ventes .raclette {
+  background: #FFF;
+}
+
+/* line 97, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+#engagements {
+  text-align: center;
+  color: #10069f;
+  background: #F9F9F9;
+}
+
+/* line 103, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+footer {
+  background: #10069f;
+  padding: 50px 0;
+}
+
+/* line 107, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+footer * {
+  color: #FFF;
+}
+
+/* line 111, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+footer ul {
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 119, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+footer .container > ul li {
+  display: inline-block;
+}
+
+/* line 122, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+footer .container > ul li:not(:last-child)::after {
+  content: '|';
+  display: inline;
+  margin: 0 20px;
+}
+
+/* line 132, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+h2, #ventes h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #10069f;
+  margin: 20px 0 50px 0;
+}
+
+/* line 138, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+h2::after, #ventes h3::after {
+  content: '';
+  background-color: #10069f;
+  width: 4em;
+  height: 3px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* line 149, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+a.btn {
+  border-radius: 0;
+}
+
+/* line 153, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+a.btn-blanc {
+  background: #FFF;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+/* line 162, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+a .fond-bleu {
+  display: none;
+  opacity: 0;
+  transition: 0.5s all;
+}
+
+/* line 168, D:/Users/Pierre Gaido/Dropbox/Formations/Cours/HTML - CSS - Bootstrap/cours v2/Exercices/exercice-6-correction2/scss/style.scss */
+a:hover .fond-bleu {
+  opacity: 1;
+  background: rgba(16, 6, 159, 0.5);
+  position: absolute;
+  color: #FFF;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
