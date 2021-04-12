@@ -1,5 +1,10 @@
 @import 'partials/variables';
 
+body#index {
+    background-image: url(../img/background/17520.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*-----index.moi----*/
 header {
     background-image: url(../img/background/header.png);
