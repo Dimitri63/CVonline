@@ -1,0 +1,144 @@
+*{
+  color: #444;
+}
+.container, .container-fluid{
+  padding: 30px 0;
+}
+header   .container{
+  padding: 0;
+}
+#entete{
+  text-transform: uppercase;
+  padding: 20px;
+  background: rgb(84,173,187);
+  background: linear-gradient(45deg, rgba(84,173,187,0.3060574571625525) 0%, rgba(32,120,66,0.465721322708771) 43%, rgba(0,212,255,0.4881302862942052) 100%), url("../img/fotolia-170759839-subscription-monthly-xxl.f0c2ce73.jpg");
+  background-size: auto, cover;
+}
+#entete *{
+  color: #fff;
+}
+#entete a{
+  color: #fff;
+  text-transform: uppercase;
+  border: 2px solid #FFF;
+  font-size: 2em;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  transition: 0.5s all;
+}
+#entete a:hover{
+  text-decoration: none;
+  background: #FFF;
+  color: #444;
+}
+
+#entete h1{
+  font-size: 4em;
+  font-weight: 400;
+}
+h2{
+  text-transform: uppercase;
+  font-size: 3em;
+  text-align: center;
+}
+h2 span{
+  color: #b6d7a4;
+}
+h2:after{
+  content: '';
+  width: 200px;
+  height: 4px;
+  background-color: #b6d7a4;
+  display: block;
+  margin: 20px auto;
+}
+.fond-gris{
+  background: #EEE;
+}
+.fond-gradient{
+  background: #e2edd0;
+  background: -moz-linear-gradient(top, #e2edd0 16%, #b6d7a5 44%, #79c6c0 85%);
+  background: -webkit-linear-gradient(top, #e2edd0 16%, #b6d7a5 44%, #79c6c0 85%);
+  background: linear-gradient(to bottom, #e2edd0 16%, #b6d7a5 44%, #79c6c0 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2edd0', endColorstr='#79c6c0', GradientType=0);
+}
+h3{
+  font-size: 1.2em;
+}
+h3 b{
+  color: #b6d7a4;
+  text-transform: uppercase;
+  font-size: 1.9em;
+  display: block;
+  word-break: break-word;
+}
+#environnement p{
+  text-align: right;
+  color: #FFF;
+  font-size: 2em;
+}
+#environnement p b{
+  color: inherit;
+  display: block;
+}
+.vertical-center{
+  display: flex;
+  align-items: center;
+}
+footer{
+  background: #b6d7a4;
+}
+.btn{
+  border-radius: 0;
+}
+.btn-vert{
+  background: #b6d7a4;
+  color: #FFF;
+  margin: 10px;
+}
+.btn-dl{
+  background: #FFF;
+  border: 1px solid #444;
+}
+.btn-dl:hover{
+  background: #BBB;
+}
+.btn-blanc{
+  background: #FFF;
+}
+.btn-blanc:hover{
+  background: #FFF;
+  border: 1px solid #b6d7a4;
+  color: #b6d7a4;
+}
+
+footer nav a{
+  color: #FFF;
+  text-transform: uppercase;
+}
+.velo{
+  overflow: hidden;
+}
+.velo img{
+    animation: 10s ease-in-out infinite mouvement-velo;
+    transform-origin: center;
+}
+
+@keyframes mouvement-velo {
+  0% { margin-left: -40%; }
+  49%   { margin-left: 120%; transform: rotateY(0);}
+  50%   { margin-left: 120%; transform: rotateY(180deg); }
+  100%   { margin-left: -40%;transform: rotateY(180deg);  }
+}
+
+
+@media screen and (max-width: 640px) {
+  #entete h1{
+    font-size: 2em;
+  }
+
+  h3 b{
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,24 @@
+#table
+{
+	display: flex;
+	justify-content: space-around;
+	font-family: Arial;
+}
+table.aveccss
+{
+    border-collapse: collapse; 
+}
+table.aveccss th
+{
+    color: #FFFFFF;
+    border: 1px solid red;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+}
+table.aveccss td
+{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}

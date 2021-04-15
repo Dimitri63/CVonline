@@ -1,0 +1,182 @@
+@import 'partials/variables';
+
+section {
+  padding: 50px 0;
+}
+
+.slider {
+  background-image: url(../img/Header-V1.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+
+  > p {
+    color: $blanc;
+    text-shadow: 2px 2px $noir;
+  }
+
+  div {
+    background: transparentize($blanc, 0.5);
+    text-align: center;
+    padding: 10px 60px;
+
+    p {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}
+
+#categories {
+  background-color: $gris;
+
+  a {
+    position: relative;
+    margin-bottom: 30px;
+    display: inline-block;
+    background: $blanc;
+    text-align: center;
+    text-transform: uppercase;
+    color: $bleu;
+
+    span {
+      margin: 15px;
+      display: inline-block;
+    }
+  }
+}
+
+#ventes {
+  text-align: center;
+  color: $bleu;
+
+  > div {
+    background-image: url(../img/map.png);
+    padding: 50px 0;
+  }
+
+  h3 {
+    @extend h2;
+    font-size: 1.3em;
+    font-weight: normal;
+
+    small {
+      display: block;
+      text-transform: none;
+      font-size: 0.6em;
+      font-weight: bold;
+    }
+  }
+
+  a {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: $bleu;
+  }
+
+  .tartiflette {
+    background-color: $bleu;
+    color: $blanc;
+
+    h3, a {
+      color: $blanc;
+
+      &::after {
+        background-color: $blanc;
+      }
+    }
+  }
+
+  .raclette {
+    background: $blanc;
+  }
+}
+
+#engagements {
+  text-align: center;
+  color: $bleu;
+  background: $gris;
+}
+
+footer {
+  background: $bleu;
+  padding: 50px 0;
+
+  * {
+    color: $blanc;
+  }
+
+  ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .container {
+    > ul {
+      li {
+        display: inline-block;
+
+        &:not(:last-child)::after {
+          content: '|';
+          display: inline;
+          margin: 0 20px;
+        }
+      }
+    }
+  }
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: $bleu;
+  margin: 20px 0 50px 0;
+
+  &::after {
+    content: '';
+    background-color: $bleu;
+    width: 4em;
+    height: 3px;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+a {
+  &.btn {
+    border-radius: 0;
+  }
+
+  &.btn-blanc {
+    background: #FFF;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+}
+
+a {
+  .fond-bleu {
+    display: none;
+    opacity: 0;
+    transition: 0.5s all;
+  }
+
+  &:hover .fond-bleu {
+    opacity: 1;
+    background: transparentize($bleu, 0.5);
+    position: absolute;
+    color: $blanc;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
