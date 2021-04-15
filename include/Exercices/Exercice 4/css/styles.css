@@ -1,0 +1,127 @@
+*{
+	color: #444;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 3em;
+  text-align: center;
+}
+h2 span{
+  color: #b6d7a4;
+}
+h2:after{
+  content: '';
+  width: 200px;
+  height: 4px;
+  background-color: #b6d7a4;
+  display: block;
+  margin: 20px auto;
+}
+
+/*.....Nav.......*/
+.links
+{
+	margin-right: : 20px;
+	margin-left: 20px;
+}
+
+/*.....Grid=1.....*/
+#grid1
+{
+	text-transform: uppercase;
+  	padding: 20px;
+  	background: rgb(84,173,187);
+  	background: linear-gradient(45deg, rgba(84,173,187,0.3060574571625525) 0%, rgba(32,120,66,0.465721322708771) 43%, rgba(0,212,255,0.4881302862942052) 100%), url("../img/fotolia-170759839-subscription-monthly-xxl.f0c2ce73.jpg");
+}
+#grid1 *
+{
+	color: #FFF;	
+}
+#grid1 a{
+  color: #fff;
+  text-transform: uppercase;
+  border: 2px solid #FFF;
+  font-size: 2em;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  transition: 0.5s all;
+}
+#grid1 a:hover{
+  text-decoration: none;
+  background: #FFF;
+  color: #444;
+}
+
+#grid1 h1{
+  font-size: 4em;
+  font-weight: 400;
+}
+
+/*.....Grid=2.....*/
+#grid2 *
+{
+	margin: 30px auto;	
+}
+#grid2 p
+{
+	color: #444;
+}
+#grid2 a{
+  color: #fff;
+  background-color: #b6d7a4;
+  font-size: 2em;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  transition: 0.5s all;
+}
+#grid2 a:hover{
+  text-decoration: none;
+  background: #FFF;
+  color: #444;
+}
+
+/*.....Grid=3.....*/
+#grid3
+{
+	padding: 30px;	
+}
+#grid3 *
+{
+	margin: 30px auto;	
+}
+#grid3
+{
+	background-color: rgb(220, 220, 220);
+}
+#grid3 h2
+{
+	color: #444;
+}
+
+.dring-dring {
+    position: absolute; 
+    animation: slidein 10s infinite linear;
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -40%;
+    }
+    40% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+        margin-left: 120%; 
+    }
+    90% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        margin-left: -50%;
+        transform: rotateY(0deg);
+    }
+}
