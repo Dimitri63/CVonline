@@ -1,0 +1,31 @@
+*
+{
+	font-family: Arial;
+}
+table
+{
+    border-collapse: collapse; 
+}
+th
+{
+    color: #FFFFFF;
+    border: 1px solid #F00;
+    background-color: #F00;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+td
+{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+}
+tbody th
+{
+	background-color: #ff6464;
+	border: 1px solid #ff6464;
+}
+
+
+
