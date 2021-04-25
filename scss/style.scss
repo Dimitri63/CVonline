@@ -1,6 +1,5 @@
 @import 'partials/variables';
 body {
-    height: 8000px;
     nav {
         img.navbar-brand {
             height: 2em;
@@ -334,28 +333,37 @@ body {
             overflow: hidden;
             max-width: 530px;
             margin: 10px auto 1rem;
-            .caption {
-              display: flex;
-              height: 100%;
-              width: 100%;
-              background-color: fade-out(#212529, 0.8);
-              position: absolute;
-              top: 0;
-              bottom: 0;
-              z-index: 1;
-              .caption-content {
-                color: #fff ;
-                margin: auto 2rem 2rem;
-                h2 {
-                  font-size: 0.8rem;
-                  text-transform: uppercase;
-                }
-                p {
-                  font-weight: 300;
-                  font-size: 1.2rem;
-                }
-              }
+            .fond-hover {
+              display: none;
             }
+          
+            &:hover .fond-hover {
+              opacity: 1;
+              background: transparentize(#FFF, 0.6);
+              position: absolute;
+              color: #FFF;
+              z-index: 1;
+              top: 30px;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+            }
+          .caption-content {
+            color: rgb(0, 0, 0) ;
+            margin: auto 2rem 2rem;
+            h2 {
+              font-size: 1.2rem;
+              text-transform: uppercase;
+            }
+            p {
+              font-weight: 300;
+              font-size: 1.1rem;
+            }
+          }
             @media(min-width: 992px) {
               max-width: none;
               margin: 0;
@@ -385,6 +393,91 @@ body {
             }
           }
     }
+    section#Hobbies {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      .content-section-heading {
+          margin-bottom: 20px;
+          h2 {
+            color: #FFF;
+              text-align: center;
+              margin-top: 2px;
+              font-family: 'Ruda', sans-serif;
+          }
+          h3 {
+              color: rgb(255, 255, 255);
+              text-align: center;
+              margin-top: 2px;
+              font-family: 'Ruda', sans-serif;
+          }
+      }
+      
+      .build-item {
+          display: block;
+          position: relative;
+          overflow: hidden;
+          margin: 10px auto 1rem;
+          .fond-hover {
+            display: none;
+          }
+        
+          &:hover .fond-hover {
+            opacity: 1;
+            background: transparentize(#FFF, 0.6);
+            position: absolute;
+            color: #FFF;
+            z-index: 1;
+            max-width: 207px;
+            top: 31px;
+            bottom: 32px;
+            left: 31px;
+            right: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+          }
+        .caption-content {
+          color: rgb(0, 0, 0) ;
+          margin: auto 2rem 2rem;
+          h2 {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+          }
+          p {
+            font-weight: 300;
+            font-size: 1.1rem;
+          }
+        }
+          @media(min-width: 992px) {
+            max-width: none;
+            margin: 0;
+            .caption {
+              transition: clip-path 0.25s ease-out, background-color 0.7s;
+              clip-path: inset(0px);
+              .caption-content {
+                transition: opacity 0.25s;
+                margin-left: 5rem;
+                margin-right: 5rem;
+                margin-bottom: 5rem;
+              }
+            }
+            img {
+              transition: clip-path 0.25s ease-out;
+              clip-path: inset(-1px);
+            }
+            &:hover {
+              img {
+                clip-path: inset(2rem);
+              }
+              .caption {
+                background-color: fade-out(#1D809F, 0.1);
+                clip-path: inset(2rem);
+              }
+            }
+          }
+        }
+  }
     footer {
       margin-top: 50px;
       img {
@@ -443,5 +536,3 @@ body {
     }
 
 }
-
-

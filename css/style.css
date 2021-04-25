@@ -1,9 +1,4 @@
-/* line 2, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
-body {
-  height: 8000px;
-}
-
-/* line 5, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 4, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body nav img.navbar-brand {
   height: 2em;
   background-color: #FFF;
@@ -11,43 +6,43 @@ body nav img.navbar-brand {
   border-radius: 5px;
 }
 
-/* line 12, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 11, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header {
   margin-top: 3.5em;
 }
 
-/* line 14, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 13, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header .presentation {
   color: #FFF;
   text-align: center;
   margin-top: 2px;
 }
 
-/* line 18, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 17, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header .presentation .top {
   font-size: 1.8em;
   margin-top: 2px;
   padding: 50px 0 80px;
 }
 
-/* line 22, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 21, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header .presentation .top h1 {
   color: gray;
 }
 
-/* line 24, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 23, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header .presentation .top h1 span {
   font-size: 0.7em;
   display: block;
 }
 
-/* line 29, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 28, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header .presentation .top p {
   font-size: 2em;
   font-family: fangsong;
 }
 
-/* line 38, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 37, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header .presentation .content .img {
   background-image: url(../img/profil/profil_dim.png);
   background-repeat: no-repeat;
@@ -55,52 +50,52 @@ body header .presentation .content .img {
   background-position: center;
 }
 
-/* line 44, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 43, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header .presentation .content .text {
   background-color: rgba(100, 100, 200, 0.3);
   padding: 0 30px 150px 30px;
 }
 
-/* line 47, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 46, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header .presentation .content .text h2 {
   font-size: 3em;
 }
 
-/* line 50, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 49, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header .presentation .content .text p {
   font-size: 1.3em;
   margin-top: 1.5em;
 }
 
-/* line 54, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 53, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header .presentation .content .text h3 {
   font-size: 2em;
 }
 
-/* line 57, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 56, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body header .presentation .content .text .btn {
   margin-top: 10px;
   font-size: 2em;
 }
 
-/* line 69, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 68, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .page-section {
   padding: 6rem 0;
 }
 
-/* line 71, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 70, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .page-section .text-center {
   text-align: center !important;
 }
 
-/* line 74, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 73, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-/* line 79, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 78, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .page-section h3.section-subheading {
   font-size: 1rem;
   font-weight: 400;
@@ -109,14 +104,14 @@ body section#Experience .page-section h3.section-subheading {
   margin-bottom: 4rem;
 }
 
-/* line 87, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 86, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline {
   position: relative;
   padding: 0;
   list-style: none;
 }
 
-/* line 92, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 91, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline:before {
   position: absolute;
   top: 0;
@@ -128,25 +123,25 @@ body section#Experience .timeline:before {
   background-color: #e9ecef;
 }
 
-/* line 102, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 101, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li {
   position: relative;
   min-height: 50px;
   margin-bottom: 50px;
 }
 
-/* line 107, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 106, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li:after, body section#Experience .timeline > li:before {
   display: table;
   content: " ";
 }
 
-/* line 111, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 110, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li:after {
   clear: both;
 }
 
-/* line 114, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 113, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li .timeline-panel {
   position: relative;
   float: right;
@@ -155,7 +150,7 @@ body section#Experience .timeline > li .timeline-panel {
   text-align: left;
 }
 
-/* line 121, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 120, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li .timeline-panel:before {
   right: auto;
   left: -15px;
@@ -163,7 +158,7 @@ body section#Experience .timeline > li .timeline-panel:before {
   border-left-width: 0;
 }
 
-/* line 127, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 126, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li .timeline-panel:after {
   right: auto;
   left: -14px;
@@ -171,7 +166,7 @@ body section#Experience .timeline > li .timeline-panel:after {
   border-left-width: 0;
 }
 
-/* line 133, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 132, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li .timeline-image {
   position: absolute;
   z-index: 100;
@@ -186,21 +181,21 @@ body section#Experience .timeline > li .timeline-image {
   background-color: #fed136;
 }
 
-/* line 146, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 145, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li .timeline-image h4 {
   font-size: 10px;
   line-height: 14px;
   margin-top: 12px;
 }
 
-/* line 151, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 150, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
   text-align: left;
 }
 
-/* line 156, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 155, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li.timeline-inverted > .timeline-panel:before {
   right: auto;
   left: -15px;
@@ -208,7 +203,7 @@ body section#Experience .timeline > li.timeline-inverted > .timeline-panel:befor
   border-left-width: 0;
 }
 
-/* line 162, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 161, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li.timeline-inverted > .timeline-panel:after {
   right: auto;
   left: -14px;
@@ -216,33 +211,33 @@ body section#Experience .timeline > li.timeline-inverted > .timeline-panel:after
   border-left-width: 0;
 }
 
-/* line 168, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 167, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline > li:last-child {
   margin-bottom: 0;
 }
 
-/* line 171, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 170, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline .timeline-heading h4 {
   margin-top: 0;
 }
 
-/* line 174, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 173, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline .timeline-heading h5 {
   color: #8b9d1c;
 }
 
-/* line 177, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 176, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline .timeline-heading h6 {
   color: #709fb0;
 }
 
-/* line 180, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 179, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline .timeline-heading h4.subheading {
   text-transform: none;
   color: #8b9d1c;
 }
 
-/* line 184, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 183, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#Experience .timeline .timeline-body > ul,
 body section#Experience .timeline .timeline-body > p {
   margin-bottom: 0;
@@ -250,36 +245,36 @@ body section#Experience .timeline .timeline-body > p {
 }
 
 @media (min-width: 768px) {
-  /* line 191, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 190, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline:before {
     left: 50%;
   }
-  /* line 194, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 193, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li {
     min-height: 100px;
     margin-bottom: 100px;
   }
-  /* line 198, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 197, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li .timeline-panel {
     float: left;
     width: 41%;
     padding: 0 20px 20px 30px;
     text-align: right;
   }
-  /* line 204, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 203, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li .timeline-image {
     left: 50%;
     width: 100px;
     height: 100px;
     margin-left: -50px;
   }
-  /* line 210, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 209, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li .timeline-image h4 {
     font-size: 13px;
     line-height: 18px;
     margin-top: 16px;
   }
-  /* line 215, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 214, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
@@ -288,82 +283,82 @@ body section#Experience .timeline .timeline-body > p {
 }
 
 @media (min-width: 992px) {
-  /* line 222, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 221, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li {
     min-height: 150px;
   }
-  /* line 225, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 224, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li .timeline-panel {
     padding: 0 20px 20px;
   }
-  /* line 228, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 227, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li .timeline-image {
     width: 150px;
     height: 150px;
     margin-left: -75px;
   }
-  /* line 233, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 232, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li .timeline-image h4 {
     font-size: 18px;
     line-height: 26px;
     margin-top: 30px;
   }
-  /* line 238, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 237, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 243, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 242, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li {
     min-height: 170px;
   }
-  /* line 246, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 245, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px;
   }
-  /* line 249, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 248, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li .timeline-image {
     width: 170px;
     height: 170px;
     margin-left: -85px;
   }
-  /* line 254, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 253, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li .timeline-image h4 {
     margin-top: 40px;
   }
-  /* line 257, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 256, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#Experience .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
 }
 
-/* line 263, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 262, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#portfolio {
   padding-top: 60px;
 }
 
-/* line 265, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 264, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#portfolio h2 {
   color: #FFF;
 }
 
-/* line 268, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 267, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 273, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 272, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
   margin: 0 auto;
 }
 
-/* line 278, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 277, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
@@ -376,25 +371,25 @@ body section#portfolio .portfolio-item .portfolio-link .portfolio-hover {
   transition: opacity ease-in-out 0.25s;
 }
 
-/* line 289, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 288, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
   color: white;
 }
 
-/* line 293, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 292, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
 }
 
-/* line 296, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 295, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
 }
 
-/* line 301, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 300, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -402,24 +397,24 @@ body section#portfolio .portfolio-item .portfolio-caption .portfolio-caption-hea
   margin-bottom: 0;
 }
 
-/* line 307, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 306, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-/* line 312, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 311, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#build {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-/* line 315, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 314, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#build .content-section-heading {
   margin-bottom: 20px;
 }
 
-/* line 317, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 316, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#build .content-section-heading h2 {
   color: #555;
   text-align: center;
@@ -427,7 +422,7 @@ body section#build .content-section-heading h2 {
   font-family: 'Ruda', sans-serif;
 }
 
-/* line 323, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 322, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#build .content-section-heading h3 {
   color: #333;
   text-align: center;
@@ -435,7 +430,7 @@ body section#build .content-section-heading h3 {
   font-family: 'Ruda', sans-serif;
 }
 
-/* line 331, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 330, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body section#build .build-item {
   display: block;
   position: relative;
@@ -444,120 +439,240 @@ body section#build .build-item {
   margin: 10px auto 1rem;
 }
 
-/* line 337, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
-body section#build .build-item .caption {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
+/* line 336, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#build .build-item .fond-hover {
+  display: none;
 }
 
-/* line 346, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
-body section#build .build-item .caption .caption-content {
-  color: #fff;
+/* line 340, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#build .build-item:hover .fond-hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  color: #FFF;
+  z-index: 1;
+  top: 30px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 355, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#build .build-item .caption-content {
+  color: black;
   margin: auto 2rem 2rem;
 }
 
-/* line 349, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
-body section#build .build-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+/* line 358, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#build .build-item .caption-content h2 {
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
-/* line 353, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
-body section#build .build-item .caption .caption-content p {
+/* line 362, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#build .build-item .caption-content p {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 @media (min-width: 992px) {
-  /* line 331, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 330, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#build .build-item {
     max-width: none;
     margin: 0;
   }
-  /* line 362, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 370, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#build .build-item .caption {
     transition: clip-path 0.25s ease-out, background-color 0.7s;
     clip-path: inset(0px);
   }
-  /* line 365, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 373, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#build .build-item .caption .caption-content {
     transition: opacity 0.25s;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
   }
-  /* line 372, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 380, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#build .build-item img {
     transition: clip-path 0.25s ease-out;
     clip-path: inset(-1px);
   }
-  /* line 377, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 385, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#build .build-item:hover img {
     clip-path: inset(2rem);
   }
-  /* line 380, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 388, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body section#build .build-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
     clip-path: inset(2rem);
   }
 }
 
-/* line 388, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 396, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#Hobbies {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* line 399, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#Hobbies .content-section-heading {
+  margin-bottom: 20px;
+}
+
+/* line 401, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#Hobbies .content-section-heading h2 {
+  color: #FFF;
+  text-align: center;
+  margin-top: 2px;
+  font-family: 'Ruda', sans-serif;
+}
+
+/* line 407, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#Hobbies .content-section-heading h3 {
+  color: white;
+  text-align: center;
+  margin-top: 2px;
+  font-family: 'Ruda', sans-serif;
+}
+
+/* line 415, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#Hobbies .build-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto 1rem;
+}
+
+/* line 420, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#Hobbies .build-item .fond-hover {
+  display: none;
+}
+
+/* line 424, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#Hobbies .build-item:hover .fond-hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  color: #FFF;
+  z-index: 1;
+  max-width: 207px;
+  top: 31px;
+  bottom: 32px;
+  left: 31px;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 440, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#Hobbies .build-item .caption-content {
+  color: black;
+  margin: auto 2rem 2rem;
+}
+
+/* line 443, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#Hobbies .build-item .caption-content h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/* line 447, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+body section#Hobbies .build-item .caption-content p {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 992px) {
+  /* line 415, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  body section#Hobbies .build-item {
+    max-width: none;
+    margin: 0;
+  }
+  /* line 455, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  body section#Hobbies .build-item .caption {
+    transition: clip-path 0.25s ease-out, background-color 0.7s;
+    clip-path: inset(0px);
+  }
+  /* line 458, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  body section#Hobbies .build-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  /* line 465, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  body section#Hobbies .build-item img {
+    transition: clip-path 0.25s ease-out;
+    clip-path: inset(-1px);
+  }
+  /* line 470, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  body section#Hobbies .build-item:hover img {
+    clip-path: inset(2rem);
+  }
+  /* line 473, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  body section#Hobbies .build-item:hover .caption {
+    background-color: rgba(29, 128, 159, 0.9);
+    clip-path: inset(2rem);
+  }
+}
+
+/* line 481, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body footer {
   margin-top: 50px;
 }
 
-/* line 390, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+/* line 483, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
 body footer img {
   height: 50px;
   width: 50px;
 }
 
 @media (max-width: 400px) {
-  /* line 400, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 493, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body header .presentation .top {
     padding: 0;
   }
-  /* line 402, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 495, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body header .presentation .top h1 {
     margin-top: 1em;
     font-size: 0.8em;
     color: gray;
   }
-  /* line 406, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 499, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body header .presentation .top h1 span {
     font-size: 1.1em;
     display: block;
   }
-  /* line 411, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 504, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body header .presentation .top p {
     font-size: 1em;
     font-family: fangsong;
   }
-  /* line 422, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 515, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body header .presentation .content .text {
     padding: 0 30px 15px 30px;
   }
-  /* line 424, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 517, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body header .presentation .content .text h2 {
     font-size: 2em;
   }
-  /* line 427, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 520, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body header .presentation .content .text p {
     font-size: 1em;
     margin-top: 1.5em;
   }
-  /* line 431, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 524, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body header .presentation .content .text h3 {
     font-size: 1.4em;
   }
-  /* line 434, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
+  /* line 527, D:/Users/DGnex/Documents/www/CVonlineV4/scss/style.scss */
   body header .presentation .content .text .btn {
     margin-top: 10px;
     font-size: 1em;
