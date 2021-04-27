@@ -39,6 +39,11 @@ body {
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
+                    img {
+                      border-radius: 50%;
+                      margin-top: 1em;
+                      margin-bottom: 1em;
+                    }
                 }
                 .skills {
                     background-color: rgba(100,100,200,0.1);
