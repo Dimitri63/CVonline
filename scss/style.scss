@@ -17,7 +17,7 @@ body {
             .top {
                 font-size: 1.8em;
                 margin-top: 2px;
-                padding: 50px 0 80px;  
+                padding: 30px 0 20px;  
                 h1 {
                     color: gray;
                     span {
@@ -26,7 +26,7 @@ body {
                     }
                 }
                 p {
-                    font-size: 2em;
+                    font-size: 0.8em;
                     font-family: fangsong;
                 }
             }
@@ -40,18 +40,39 @@ body {
                     background-size: cover;
                     background-position: center;
                 }
-                .text {
-                    background-color: rgba(100,100,200,0.3);
-                    padding: 0 30px 150px 30px;
-                    h2 {
-                        font-size: 3em;
-                    }
-                    p {
-                        font-size: 1.3em;
-                        margin-top: 1.5em;
-                    }
-                    h3 {
+                .skills {
+                    background-color: rgba(100,100,200,0.1);
+                    padding: 0 30px 50px 30px;
+                    text-align: left;
+                    .text {
+                      padding: auto;
+                      background-color:rgba(100,100,200,0.3);
+                      margin: 20px 0 20px 0;
+                      padding: 30px;
+                      color: #FFF;
+                      h2 {
                         font-size: 2em;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                      }
+                      p {
+                        text-align: left;
+                      }
+                    }
+                    ul {
+                      font-size: 0.8em;
+                      .title {
+                        color: #005DFF;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: 1.1em;
+                      }
+                      .number {
+                        color: #FF8F00;
+                      }
+                      p {
+                        
+                      }
                     }
                     .btn {
                         margin-top: 10px;
@@ -511,7 +532,15 @@ body {
 
                     }
                     .img {
+                    .text {
+                      font-size: 1em;
+                      h2 {
+                        font-size: 1em;
+                      }
+                      p {
+                      }
                     }
+                  }
                     .text {
                         padding: 0 30px 15px 30px;
                         h2 {
