@@ -1,0 +1,43 @@
+@import 'partials/variables';
+body {
+    
+    .top {
+        background-color: #D94E4E;
+        .concept {
+            text-align: center;
+            color: seashell;
+            font-size: 1.5em;
+            .con-01 {
+
+            }
+            .con-02 {
+                margin-top: 20px;
+            }
+        }
+        .presentation {
+            color: seashell;
+            font-size: 2em;
+            .present-01 {
+                margin-top: 50px;
+            }
+            .present-01 {
+
+            }
+        }
+    }
+    .middle {
+        background-color: #827171;
+        .fonctionnement {
+            margin-top: 2em;
+            margin-bottom: 2em;
+            .text {
+                color: seashell;
+                font-size: 1.2em;
+            }
+            .img {
+
+            }
+        }
+    }
+    
+}
