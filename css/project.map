@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "project.css",
+	"sources": [
+		"../scss/project.scss",
+		"../scss/partials/_variables.scss"
+	],
+	"sourcesContent": [
+		"@import 'partials/variables';\r\nbody {\r\n    \r\n    .top {\r\n        background-color: #D94E4E;\r\n        .concept {\r\n            text-align: center;\r\n            color: seashell;\r\n            font-size: 1.2em;\r\n            .con-01 {\r\n\r\n            }\r\n            .con-02 {\r\n                margin-top: 20px;\r\n            }\r\n        }\r\n        .presentation {\r\n            color: seashell;\r\n            font-size: 1.1em;\r\n            .present-01 {\r\n                margin-top: 50px;\r\n            }\r\n            .present-01 {\r\n\r\n            }\r\n        }\r\n    }\r\n    .middle {\r\n        background-color: #827171;\r\n        .fonctionnement {\r\n            padding-top: 2em;\r\n            margin-bottom: 2em;\r\n            .text {\r\n                color: seashell;\r\n                font-size: 1.2em;\r\n            }\r\n            .img {\r\n\r\n            }\r\n        }\r\n    }\r\n    \r\n}",
+		"$white : #FFF ;\r\n$gray : gray;"
+	],
+	"names": [],
+	"mappings": ";AACA,AAEI,IAFA,CAEA,IAAI,CAAC;EACD,gBAAgB,EAAE,OAAO;CAsB5B;;;AAzBL,AAIQ,IAJJ,CAEA,IAAI,CAEA,QAAQ,CAAC;EACL,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,QAAQ;EACf,SAAS,EAAE,KAAK;CAOnB;;;AAdT,AAWY,IAXR,CAEA,IAAI,CAEA,QAAQ,CAOJ,OAAO,CAAC;EACJ,UAAU,EAAE,IAAI;CACnB;;;AAbb,AAeQ,IAfJ,CAEA,IAAI,CAaA,aAAa,CAAC;EACV,KAAK,EAAE,QAAQ;EACf,SAAS,EAAE,KAAK;CAOnB;;;AAxBT,AAkBY,IAlBR,CAEA,IAAI,CAaA,aAAa,CAGT,WAAW,CAAC;EACR,UAAU,EAAE,IAAI;CACnB;;;AApBb,AA0BI,IA1BA,CA0BA,OAAO,CAAC;EACJ,gBAAgB,EAAE,OAAO;CAY5B;;;AAvCL,AA4BQ,IA5BJ,CA0BA,OAAO,CAEH,eAAe,CAAC;EACZ,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,GAAG;CAQrB;;;AAtCT,AA+BY,IA/BR,CA0BA,OAAO,CAEH,eAAe,CAGX,KAAK,CAAC;EACF,KAAK,EAAE,QAAQ;EACf,SAAS,EAAE,KAAK;CACnB"
+}

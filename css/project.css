@@ -1,0 +1,46 @@
+/* line 4, D:/Users/DGnex/Documents/www/CVonlineV4/scss/project.scss */
+body .top {
+  background-color: #D94E4E;
+}
+
+/* line 6, D:/Users/DGnex/Documents/www/CVonlineV4/scss/project.scss */
+body .top .concept {
+  text-align: center;
+  color: seashell;
+  font-size: 1.2em;
+}
+
+/* line 13, D:/Users/DGnex/Documents/www/CVonlineV4/scss/project.scss */
+body .top .concept .con-02 {
+  margin-top: 20px;
+}
+
+/* line 17, D:/Users/DGnex/Documents/www/CVonlineV4/scss/project.scss */
+body .top .presentation {
+  color: seashell;
+  font-size: 1.1em;
+}
+
+/* line 20, D:/Users/DGnex/Documents/www/CVonlineV4/scss/project.scss */
+body .top .presentation .present-01 {
+  margin-top: 50px;
+}
+
+/* line 28, D:/Users/DGnex/Documents/www/CVonlineV4/scss/project.scss */
+body .middle {
+  background-color: #827171;
+}
+
+/* line 30, D:/Users/DGnex/Documents/www/CVonlineV4/scss/project.scss */
+body .middle .fonctionnement {
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* line 33, D:/Users/DGnex/Documents/www/CVonlineV4/scss/project.scss */
+body .middle .fonctionnement .text {
+  color: seashell;
+  font-size: 1.2em;
+}
+
+/*# sourceMappingURL=project.css.map */
