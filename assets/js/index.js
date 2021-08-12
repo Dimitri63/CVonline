@@ -102,26 +102,26 @@ let telecoms = [
 
 let certifications = [
     {
-        url_pdf: "/assets/img/certificats/algo.pdf",
-        url_img: "/assets/img/certificats/certif_algo.PNG",
+        url_pdf: "./assets/img/certificats/algo.pdf",
+        url_img: "./assets/img/certificats/certif_algo.PNG",
         category: "Certification",
         title: "Algorithme"
     },
     {
-        url_pdf: "/assets/img/certificats/git.pdf",
-        url_img: "/assets/img/certificats/certif_git.PNG",
+        url_pdf: "./assets/img/certificats/git.pdf",
+        url_img: "./assets/img/certificats/certif_git.PNG",
         category: "Certification",
         title: "Git"
     },
     {
-        url_pdf: "/assets/img/certificats/html-css.pdf",
-        url_img: "/assets/img/certificats/html-css.PNG",
+        url_pdf: "./assets/img/certificats/html-css.pdf",
+        url_img: "./assets/img/certificats/html-css.PNG",
         category: "Certification",
         title: "HTML / CSS"
     },
     {
-        url_pdf: "/assets/img/certificats/scrum.pdf",
-        url_img: "/assets/img/certificats/scrum.PNG",
+        url_pdf: "./assets/img/certificats/scrum.pdf",
+        url_img: "./assets/img/certificats/scrum.PNG",
         category: "Certification",
         title: "SCRUM"
     },
@@ -133,35 +133,35 @@ let realisations = [
         url_link: "#",
         title: "HTML / CSS",
         ssTitle: "BusinessCase",
-        url_img: "/assets/img/build/Picom.PNG",
+        url_img: "./assets/img/build/Picom.PNG",
         alt_img: "picom"
     },
     { 
         url_link: "img/build/Exercices/Exercice_4/index.html",
         title: "HTML / CSS",
         ssTitle: "TP colivert",
-        url_img: "/assets/img/build/colisvert.PNG",
+        url_img: "./assets/img/build/colisvert.PNG",
         alt_img: "colivert"
     },
     { 
         url_link: "img/build/Exercices/Exercice_5/index.html",
         title: "HTML / CSS",
         ssTitle: "TP Caviar",
-        url_img: "/assets/img/build/caviar.PNG",
+        url_img: "./assets/img/build/caviar.PNG",
         alt_img: "Caviar"
     },
     { 
         url_link: "img/build/Exercices/Examen/index.html",
         title: "HTML / CSS",
         ssTitle: "Examen Fromage",
-        url_img: "/assets/img/build/fromage.PNG",
+        url_img: "./assets/img/build/fromage.PNG",
         alt_img: "Fromage"
     },
     { 
         url_link: "#",
         title: "Electron / JS",
         ssTitle: "Examen Electron",
-        url_img: "/assets/img/build/Exam-Electron.PNG",
+        url_img: "./assets/img/build/Exam-Electron.PNG",
         alt_img: "Exame Electron"
     }
 ];
