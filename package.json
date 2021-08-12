@@ -1,0 +1,20 @@
+{
+  "name": "cvonlinev5",
+  "version": "1.0.0",
+  "description": "SuperAwesome - coming-soon / landing Bootstrap template\r =============",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./assets/scss/style.scss:./assets/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimitri63/CVonline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dimitri63/CVonline/issues"
+  },
+  "homepage": "https://github.com/Dimitri63/CVonline#readme"
+}

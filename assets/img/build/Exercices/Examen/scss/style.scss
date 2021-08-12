@@ -1,0 +1,272 @@
+@import 'partials/variables';
+* {
+    color: $brown;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*.....header.....*/
+header .navbar-brand img {
+    width: 100px
+}
+
+header .nav-link,
+header .dropdown-item {
+    color: $brown
+}
+
+header .nav-link:after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 1px;
+    border: 0;
+    background: $brown;
+    margin: 0px auto;
+    transition: all 1s
+}
+
+header .nav-link:hover:after {
+    width: 80%
+}
+
+header .navbar-light .navbar-nav .nav-link,
+header .navbar-light .navbar-nav .active > .nav-link,
+header .navbar-light .navbar-nav .nav-link.active,
+header .navbar-light .navbar-nav .nav-link.show,
+header .navbar-light .navbar-nav .show > .nav-link,
+header .navbar-light .navbar-nav .nav-link:focus,
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: $brown;
+    text-transform: uppercase
+}
+
+/*.....main.....*/
+main {
+    text-align: center;
+    background-image: url(../img/entete.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    h1 {
+        color: $blanc;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-transform: uppercase;
+        font-size: 3em;
+    }
+    p {
+        background-color: $gris;
+        color: $brown;
+        display: block;
+        position: relative;
+        font-size: 1.2em;
+        font-weight: bold;
+        bottom: -20px
+    }
+}
+/*.....section produit.....*/
+#produit {
+    div {
+        margin-top : 20px;
+    }
+    a {
+        position: relative;
+        margin-bottom: 30px;
+        display: inline-block;
+        background: $gris;
+        text-align: center;
+        text-transform: uppercase;
+        color: $bleu;
+        p {
+            color: $brown;
+        }
+        .fond-hover {
+            display: none;
+            h3 {
+              color: $blanc;
+              font-size: 1.5em;
+            }
+            p {
+                font-size: 0.7em;
+                color: $blanc;
+                display: block;
+            }
+            img {
+                margin-top: -30px;
+            }
+          }
+        
+          &:hover .fond-hover {
+            opacity: 1;
+            background: transparentize($brown, 0.5);
+            position: absolute;
+            color: $blanc;
+            z-index: 1;
+            top: -20px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+          }
+          &:hover h3 {
+            background-color: $brown;
+            padding: 30px;
+          }
+    
+        span {
+          margin: 15px;
+          display: inline-block;
+        }
+    }
+}
+
+/*.....section devoile.....*/
+#devoile {
+    text-align: center;
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-weight: lighter;
+        &::after {
+            content: '';
+            background-color: $brown;
+            width: 4em;
+            height: 2px;
+            display: block;
+            margin: 10px auto;
+        }
+    }
+    .img1 {
+        max-width: 60%;
+    }
+    .img2 {
+        max-width: 90%;
+    }
+    a {
+        text-decoration: none;
+        color: $brown;
+        .fond-gris {
+            background-color: $gris;
+            margin-top: -50px;
+        }
+    }
+}
+
+
+/*.....section decouvre.....*/
+#decouvre {
+    a {
+        text-decoration: none;
+        color: $brown;
+    }
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-weight: lighter;
+        &::after {
+            content: '';
+            background-color: $brown;
+            width: 4em;
+            height: 2px;
+            display: block;
+            margin: 10px auto;
+        }
+    }
+    text-align: center;
+    text-align: center;
+    .img1 {
+        max-width: 80%;
+    }
+}
+/*.....footer.....*/
+footer h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.5em
+}
+
+footer h2:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: $brown;
+    margin: 20px auto
+}
+
+footer > div {
+    padding: 50px 0
+}
+
+footer > div:first-child {
+    background-color: #f4f4f4;
+    padding-bottom: 40px;
+    text-align: center
+}
+
+footer > div:last-child {
+    background-color: $brown;
+    padding-bottom: 40px
+}
+
+footer > div:last-child * {
+    color: $blanc
+}
+
+footer > div:last-child div.col-md-6 {
+    margin-top: 20px
+}
+
+@media (min-width: 768px) {
+    footer > div:last-child div.col-md-6 {
+        margin-top: 0px;
+        padding-left: 100px
+    }
+}
+
+footer > div:last-child ul {
+    margin: 20px 0;
+    padding: 0
+}
+
+@media (min-width: 576px) {
+    footer > div:last-child ul {
+        margin: 0
+    }
+}
+
+footer > div:last-child ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em
+}
+
+footer p {
+    word-break: break-word
+}
+
+footer p b {
+    display: block
+}
+
+footer .logo {
+    width: 200px
+}
+@media screen and (max-width: 640px) {
+    main {
+        text-align: left;
+        h1 {
+            color: $blanc;
+            font-size: 3em;
+        }
+        p {
+            text-align: center;
+            font-size: 1.1em;
+            bottom: 0;
+        }
+    }
+  }

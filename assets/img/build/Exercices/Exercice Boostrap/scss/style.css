@@ -1,0 +1,179 @@
+* {
+  font-family: arial; }
+
+/*.....nav.....*/
+header div {
+  padding: 0;
+  background-color: #FFF; }
+header .nav-logo {
+  width: 30%; }
+
+/*.....grid1.....*/
+#grid1 {
+  background-image: url(../img/Header-V1.jpg);
+  background-size: cover; }
+  #grid1 .box-grid1 {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    margin-bottom: 200px; }
+  #grid1 a {
+    background-color: #FFF;
+    display: block;
+    color: #000;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin: auto; }
+  #grid1 h1 {
+    font-size: 0.9em;
+    color: #FFF;
+    margin-top: 50px;
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.46); }
+  #grid1 h2 {
+    font-size: 1.5em;
+    font-family: cursive; }
+    #grid1 h2 span {
+      display: block; }
+
+/*.....grid2.....*/
+#grid2 {
+  background: #EEE; }
+  #grid2 a {
+    background-color: #FFF;
+    color: #1414AE;
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px; }
+  #grid2 .row {
+    padding-top: 20px; }
+  #grid2 .container {
+    position: relative;
+    top: -150px; }
+
+/*.....grid3.....*/
+#grid3 #ventes {
+  background-image: url(../img/map.png);
+  margin-bottom: 50px; }
+#grid3 h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #1414AE;
+  text-transform: uppercase; }
+#grid3 h2:after {
+  content: '';
+  width: 100px;
+  height: 1px;
+  background-color: #1414AE;
+  display: block;
+  margin: 20px auto; }
+#grid3 #conseil {
+  background-color: #1414AE;
+  color: #FFF;
+  text-align: center;
+  margin-left: -150px;
+  margin-top: 150px;
+  padding: 40px; }
+  #grid3 #conseil h2 {
+    margin-top: 40px;
+    font-weight: bolder;
+    color: #FFF;
+    font-size: 0.8em;
+    text-transform: capitalize; }
+    #grid3 #conseil h2 :after {
+      content: '';
+      width: 100px;
+      height: 1px;
+      background-color: #FFF;
+      display: block;
+      margin: 20px auto; }
+  #grid3 #conseil span {
+    display: block;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 1.2em; }
+  #grid3 #conseil a {
+    margin-top: 20px;
+    color: #FFF;
+    text-decoration: underline;
+    display: block; }
+#grid3 #recetteimg {
+  margin-left: -150px;
+  margin-top: 150px; }
+#grid3 #recette {
+  background-color: #FFF;
+  color: #1414AE;
+  text-align: center;
+  margin-bottom: 150px; }
+  #grid3 #recette h2 {
+    margin-top: 40px;
+    font-weight: bolder;
+    color: #1414AE;
+    font-size: 0.8em;
+    text-transform: capitalize; }
+    #grid3 #recette h2 :after {
+      content: '';
+      width: 100px;
+      height: 1px;
+      background-color: #FFF;
+      display: block;
+      margin: 20px auto; }
+    #grid3 #recette h2 span {
+      display: block;
+      font-weight: lighter;
+      text-transform: uppercase;
+      font-size: 1.2em; }
+  #grid3 #recette a {
+    margin-top: 20px;
+    color: #1414AE;
+    text-decoration: underline;
+    display: block; }
+
+/*.....grid4.....*/
+#grid4 {
+  background: #EEE;
+  color: #1414AE; }
+  #grid4 img {
+    width: 70px; }
+  #grid4 img.wwf {
+    width: 50%; }
+  #grid4 h2 {
+    margin-top: 40px;
+    font-weight: bolder;
+    color: #1414AE;
+    font-size: 1.5em;
+    text-transform: uppercase; }
+    #grid4 h2 :after {
+      content: '';
+      width: 100px;
+      height: 1px;
+      background-color: #1414AE;
+      display: block;
+      margin: 20px auto; }
+
+/*.....grid5.....*/
+#grid5 {
+  background: #FFF;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  #grid5 img.insta {
+    position: absolute;
+    left: -20px;
+    top: 10px; }
+
+/*.....Footer.....*/
+footer {
+  color: #FFF;
+  background-color: #1414AE; }
+  footer li {
+    list-style: none; }
+  footer .footer {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+
+/*# sourceMappingURL=style.css.map */
