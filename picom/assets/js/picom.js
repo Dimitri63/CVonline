@@ -1,10 +1,17 @@
 const baseURL = 'http://82.64.227.251:8081/';
-const baseURL1 = 'http://127.0.0.1:8455/';
+const baseURL1 = 'http://82.64.227.251:8082/';
 
 getAllUsers();
 getAllAnnounces();
 getAllBroadcast();
-getButterfly();
+
+/**
+ *
+ * @type {{stateProv: string, city: string, countryCode: string, ipAddress: string, countryName: string, continentName: string, continentCode: string}}
+ */
+let identifier = {}
+
+identifier = checkIdentifier();
 
 const usersCount = document.querySelector('#users-count');
 const AnnouncesCount = document.querySelector('#announces-count');
@@ -77,13 +84,45 @@ async function getAllBroadcast() {
     return data;
 }
 
-async function getButterfly() {
+
+async function checkIdentifier() {
 
     let data = undefined;
-    const url = baseURL1 + 'public/api/manager';
+    const url = 'https://api.db-ip.com/v2/free/self';
+    const option = {
+        method: 'GET'};
+
+    // Execute query
+    await fetch(url, option)
+        .then(res => res.json())
+        .then(json =>{
+            data = json;
+            getButterfly(data);
+        })
+    return data;
+}
+
+/**
+ *
+ * @param identifier
+ * @return {Promise<void>}
+ */
+async function getButterfly(data) {
+    identifier = data;
+
+    const body = JSON.stringify({
+        city: identifier.city,
+        continentCode: identifier.continentCode,
+        continentName: identifier.continentName,
+        countryCode: identifier.countryCode,
+        countryName: identifier.countryName,
+        ipAddress: identifier.ipAddress,
+        stateProv: identifier.stateProv
+    })
+    const url = baseURL1 + 'public/api/manager/PROJECT';
     const option = {
         method: 'POST',
-        body: "PROJECT",
+        body: body,
         headers: {
             'Content-Type': 'application/json'
         }};

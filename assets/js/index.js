@@ -12,8 +12,13 @@ const btnExperience = document.querySelector('#my-experience');
 const btnCertification = document.querySelector('#my-certification');
 const btnBuild = document.querySelector('#my-build');
 const btnHobbies = document.querySelector('#my-hobbies');
-
-getButterfly();
+/**
+ *
+ * @type {{stateProv: string, city: string, countryCode: string, ipAddress: string, countryName: string, continentName: string, continentCode: string}}
+ */
+let identifier = {}
+const baseURL1 = 'http://82.64.227.251:8082/';
+identifier = checkIdentifier();
 
 const languages = [
     {
@@ -385,13 +390,44 @@ function myHobbiesActive(active) {
     }
 }
 
-async function getButterfly() {
-    const baseURL1 = 'http://127.0.0.1:8455/';
+async function checkIdentifier() {
+
     let data = undefined;
-    const url = baseURL1 + 'public/api/manager';
+    const url = 'https://api.db-ip.com/v2/free/self';
+    const option = {
+        method: 'GET'};
+
+    // Execute query
+    await fetch(url, option)
+        .then(res => res.json())
+        .then(json =>{
+            data = json;
+            getButterfly(data);
+        })
+    return data;
+}
+
+/**
+ *
+ * @param identifier
+ * @return {Promise<void>}
+ */
+async function getButterfly(data) {
+    identifier = data;
+
+    const body = JSON.stringify({
+        city: identifier.city,
+        continentCode: identifier.continentCode,
+        continentName: identifier.continentName,
+        countryCode: identifier.countryCode,
+        countryName: identifier.countryName,
+        ipAddress: identifier.ipAddress,
+        stateProv: identifier.stateProv
+    })
+    const url = baseURL1 + 'public/api/manager/CV';
     const option = {
         method: 'POST',
-        body: "CV",
+        body: body,
         headers: {
             'Content-Type': 'application/json'
         }};
