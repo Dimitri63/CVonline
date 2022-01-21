@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Dimitri63/CVonline/issues"
   },
-  "homepage": "https://github.com/Dimitri63/CVonline#readme"
+  "homepage": "https://github.com/Dimitri63/CVonline#readme",
+  "dependencies": {
+    "sass": "^1.48.0"
+  }
 }

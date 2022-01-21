@@ -1,4 +1,4 @@
-body {
+body#CV {
   background-color: #343a40;
 }
 
@@ -68,9 +68,9 @@ section#quiSuisje div.container div.row div.col h1 img {
 section#quiSuisje div.container div.row div.col hr.separate {
   border-top: 1px solid coral;
 }
-section#quiSuisje div.container div.row div.col h3 {
+section#quiSuisje div.container div.row div.col h4 {
   color: cornflowerblue;
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 1.5em;
 }
 
@@ -631,6 +631,92 @@ footer div.container div.row ul.footer {
 footer div.container div.row ul.footer li a img {
   height: 50px;
   width: 50px;
+}
+
+main#main section#about div.info h4 {
+  color: #1a1c20;
+}
+main#main section#about div.info ul {
+  color: #333333;
+  font-size: 0.8em;
+}
+
+body#picom #synopsis {
+  margin-top: 50px;
+  padding: 50px;
+}
+body#picom #synopsis .div-logo img {
+  max-height: 200px;
+}
+body#picom #synopsis #api .api {
+  font-weight: bold;
+  color: firebrick;
+  font-family: Roboto;
+}
+body#picom #synopsis #api .java {
+  font-weight: bold;
+  color: blueviolet;
+  font-family: Roboto;
+}
+body#picom #synopsis #api .picom {
+  font-weight: bold;
+  color: #1414ae;
+  font-family: Roboto;
+}
+body#picom #synopsis #api .spring {
+  font-weight: bold;
+  color: forestgreen;
+  font-family: Roboto;
+}
+body#picom #synopsis #api .mvc {
+  font-weight: bold;
+  color: saddlebrown;
+  font-family: Roboto;
+}
+body#picom #synopsis #api .hibernate {
+  font-weight: bold;
+  color: dodgerblue;
+  font-family: Roboto;
+}
+body#picom #synopsis #client .angular {
+  font-weight: bold;
+  color: firebrick;
+  font-family: Roboto;
+}
+body#picom #synopsis #client .client {
+  font-weight: bold;
+  color: #1414ae;
+  font-family: Roboto;
+}
+body#picom #synopsis #client .typescript {
+  font-weight: bold;
+  color: darkgreen;
+  font-family: Roboto;
+}
+body#picom #synopsis #client .mvc {
+  font-weight: bold;
+  color: saddlebrown;
+  font-family: Roboto;
+}
+body#picom #admin .electron {
+  font-weight: bold;
+  color: firebrick;
+  font-family: Roboto;
+}
+body#picom #admin .admin {
+  font-weight: bold;
+  color: #1414ae;
+  font-family: Roboto;
+}
+body#picom #admin .javascript {
+  font-weight: bold;
+  color: darkgreen;
+  font-family: Roboto;
+}
+body#picom #admin .mvc {
+  font-weight: bold;
+  color: saddlebrown;
+  font-family: Roboto;
 }
 
 /*# sourceMappingURL=style.css.map */

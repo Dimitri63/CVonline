@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"
+          type="text/css">
+
+    <!-- DGnex CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css"/>
+    <title>Mon projet Picom</title>
+</head>
+<body id="picom">
+
+<header>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <img class="navbar-brand img-fluid" src="./assets/img/logo/DG_logo.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link btn btn-sm btn-primary" href="index.html">Mon CV</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="container-fluid bg-dark" id="synopsis">
+    <div class="row">
+        <div class="col-lg-6 div-logo">
+            <img class="img-fuild" src="./assets/img/picom/logo/picom-logo.png" alt="">
+        </div>
+        <div class="col-lg-6">
+            <p>On considère un système publicitaire réparti sur tous les arrêts d’un réseau de
+                transport en commun. <br>
+                Ce système sera nommé <strong>« PiCom »</strong> pour <strong>Pi Communication</strong> car il repose
+                sur
+                l’utilisation de Raspberry Pi. <br>
+                Sur chaque arrêt du réseau de transport sont installés :
+            <ul>
+                <li>
+                    un écran 32 pouces
+                </li>
+                <li>
+                    un Raspberry Pi 4 modèle B sur lequel Raspberry Pi OS est installé
+                </li>
+                <li>
+                    une clé 4G qui se connecte à un réseau 4G. On supposera que cette clé donne
+                    une adresse IP statique à chaque Raspberry Pi
+                </li>
+                <li>
+                    un coffret sécurisé et hermétique dans lequel les équipements ci-dessus sont
+                    placés
+                </li>
+            </ul>
+
+            Entre 6h et 20h, le Raspberry Pi de chaque arrêt du réseau de transport affiche
+            des annonces publicitaires.</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            Picom Client
+            <p>
+                Pour les clients, il est nécessaire de pouvoir :
+            <ul>
+                <li>
+                    s’inscrire en précisant son nom, son prénom, un email, un mot de passe
+                    contenant au minimum 8 caractères et son numéro de téléphone
+                    (l’inscription est gratuite)
+                </li>
+                <li>
+                    s’authentifier
+                </li>
+                <li>
+                    voir toutes ses annonces publicitaires
+                </li>
+                <li>
+                    ajouter une annonce publicitaire. Pour ce faire, l’application propose dans
+                    cet ordre
+                    <ul>
+                        <li>
+                            de téléverser un fichier PNG ou de rédiger son annonce dans un éditeur
+                            HTML intégré à l’application
+                        </li>
+                        <li>
+                            de choisir sur une carte du réseau de transport la ou les zones sur
+                            lesquelles il/elle souhaite que son annonce soit diffusée
+                        </li>
+                        <li>
+                            de choisir la ou les tranches horaires de diffusion
+                        </li>
+                        <li>
+                            de choisir la date à laquelle la diffusion doit commencer et le nombre
+                            de jours de diffusion
+                        </li>
+                        <li>
+                            de payer en ligne l’annonce en précisant son numéro de carte de
+                            crédit, la date d’expiration de la carte ainsi que son CVV
+                        </li>
+                    </ul>
+                <li>
+                    prolonger la diffusion d’une annonce (cette prolongation fera l’objet d’un
+                    autre paiement)
+                </li>
+                <li>
+                    voir les diffusions de chacune de ses annonces publicitaires
+                </li>
+                <li>
+                    se déconnecter
+                </li>
+            </ul>
+            </p>
+        </div>
+        <div class="col-lg-6">
+            Picom Admin
+            <p>
+                Pour les administrateurs, il est nécessaire de pouvoir :
+            <ul>
+                <li>
+                    s’authentifier
+                </li>
+                <li>
+                    gérer les zones (ajout, modification, suppression)
+                </li>
+                <li>
+                    gérer les arrêts (ajout, modification, suppression)
+                </li>
+                <li>
+                    gérer les tranches horaires (ajout, modification, suppression)
+                </li>
+                <li>
+                    gérer les tarifs de diffusion (ajout, modification, suppression)
+                </li>
+                <li>
+                    voir les clients
+                </li>
+                <li>
+                    voir les annonces
+                </li>
+                <li>
+                    se déconnecter
+                </li>
+            </ul>
+
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            Le dictionnaire de données
+            <table class="table table-bordered text-center">
+                <thead>
+                <tr>
+                    <td>
+                        Nom du champ
+                    </td>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        Type
+                    </td>
+                    <td>
+                        Taille
+                    </td>
+                    <td>
+                        Commentaire / Contraintes
+                    </td>
+                </tr>
+                </thead>
+                <tbody id="data-dictionary">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            Le MCD
+            <img class="img-fluid" src="./assets/img/picom/content/MCD.png" alt="image du MCD">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            Le MCD
+            <img class="img-fluid" src="./assets/img/picom/content/MPD.png" alt="">
+        </div>
+    </div>
+    <div class="row" id="api">
+        <div class="col">
+            Développement de l'API
+            <h3>Technologie</h3>
+            <p>Pour le développement de l'<span class="api">API</span>, j'ai choisi d'utiliser <span class="java">JAVA</span></p>
+            <p>Pour le développement de mon <span class="api">API</span> de l’application <span class="picom">Picom</span>, j’ai choisi d’utiliser
+                le langage <span class="java">JAVA</span>.
+                <br>
+
+                <span class="java">JAVA</span> est pour moi un excellent langage pour le développement d’une <span class="api">API</span>.
+                Certes, c’est un langage lourd à mettre en place, mais présente des avantages comme le <b>multithreading</b>, l’extensibilité,
+                la gestion de la mémoire et une <b>haute sécurité</b>.
+                <br>
+
+                <span class="api">API</span> est également un langage populaire, utilisé à grande échelle dans le monde entier.
+                <br>
+
+                Pour réaliser l’<span class="api">API</span>, j’ai combiné <span class="java">JAVA</span> avec le framework <span class="spring">SPRING</span>.
+                <br>
+
+                <span class="spring">SPRING</span> permet d’ajouter de la sécurité avec <b>SpringSecurity</b>, mais également beaucoup
+                d'avantages comme la gestion des dépendances (<b>SpringWeb, Spring Data JPA, SpringSecurity</b>), l’utilisation d’une architecture
+                <span class="mvc">MVC</span> et facilite le développement d’<span class="api">API</span> avec <b>spring Boot</b>.
+                <br>
+
+                Grâce à <b>Spring Data JPA</b>, l'interaction avec la base de données se fait très simplement à l’aide de drivers importés.
+                <br>
+
+                La sécurité est accru avec <b>SpringSecurity</b><br>.
+
+                Et enfin, la gestion des requêtes est très simple grâce à l'excellent <b>ORM</b> <span class="hibernate">Hibernate</span> qui permet de créer des requêtes HQL, des requêtes par dérivation etc…</p>
+        </div>
+    </div>
+    <div class="row" id="client">
+        <div class="col">
+            Développement de <span class="client">Picom Client</span>
+            <h3>Technologie</h3>
+            <p>Pour l’application <span class="client">Client</span>, j’ai choisi utiliser <span class="angular">Angular</span>.
+                <br>
+
+                Grâce à <span class="typescript">TypeScript</span>, <span class="angular">Angular</span> offre un très bon support <b>robuste</b> et <b>fiable</b>,
+                de plus, <span class="angular">Angular</span> respecte parfaitement le modèle <span class="mvc">MVC</span> (Model-View-Controller)
+                avec ses modules et composants.
+                <br>
+
+                <span class="angular">Angular</span> prend en charge le développement d'applications à page unique,
+                ce qui rend la navigation plus fluide et donc plus agréable.
+            </p>
+        </div>
+    </div>
+    <div class="row" id="admin">
+        <div class="col">
+            Développement de Picom Admin
+            <h3>Technologie</h3>
+            <p>
+                Pour le développement de l’application <span class="admin">d’administration Picom</span>, j’ai choisi
+                d’utiliser <span class="electron">ElectronJS</span>.
+                <br>
+
+                <span class="electron">ElectronJS</span> est un framework <b>multiplateforme</b> basé sur
+                <span class="javascript">JavaScript, HTML et CSS</span>. De ce fait, il ne nécessite pas de connaissance
+                supplémentaire pour pouvoir créer une application de bureau.
+
+                Depuis la sortie du moteur JavaScript V8, ElectronJS est de plus en plus utilisée par les entreprises.
+
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- DGnex JavaScript -->
+<script src="./assets/js/picom.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,13 +1,21 @@
 //////////////////////////////////////////////////
 ///////////////////// BALISES ////////////////////
 //////////////////////////////////////////////////
-let bSkillCol1 = document.querySelector("#skillsCol1");
-let bSkillCol2 = document.querySelector("#skillsCol2");
-let bSkillCol3 = document.querySelector("#skillsCol3");
-let rowCertification = document.querySelector("#certifications");
-let rowRealisation = document.querySelector("#realisations");
+const bSkillCol1 = document.querySelector("#skillsCol1");
+const bSkillCol2 = document.querySelector("#skillsCol2");
+const bSkillCol3 = document.querySelector("#skillsCol3");
+const rowCertification = document.querySelector("#certifications");
+const rowRealisation = document.querySelector("#realisations");
+const btnProfile = document.querySelector('#btn-profile');
+const btnWhoIAm = document.querySelector('#who-i-am');
+const btnExperience = document.querySelector('#my-experience');
+const btnCertification = document.querySelector('#my-certification');
+const btnBuild = document.querySelector('#my-build');
+const btnHobbies = document.querySelector('#my-hobbies');
 
-let languages = [
+getButterfly();
+
+const languages = [
     {
         label: "HTML - CSS - SASS",
         value: "80%"
@@ -17,16 +25,20 @@ let languages = [
         value: "70%"
     },
     {
-        label: "SQL",
+        label: "SQL, MySQL, MongoDB",
         value: "80%"
     },
     {
-        label: "JAVA - Spring - Hibernate",
-        value: "75%"
+        label: "JAVA - SPRING - Hibernate",
+        value: "85%"
     },
     {
-        label: "JS - JQuery",
+        label: "NodeJS, Mongoose, Express",
         value: "80%"
+    },
+    {
+        label: "JavaScript, TypeScript",
+        value: "85%"
     },
     {
         label: "Electron JS",
@@ -34,18 +46,18 @@ let languages = [
     },
     {
         label: "Angular",
-        value: "80%"
+        value: "85%"
     },
     {
         label: "PHP - Symfony",
-        value: "10%"
+        value: "60%"
     },
     {
         label: "C#",
         value: "20%"
     }
 ];
-let environnements = [
+const environnements = [
     {
         label: "Windows 7",
         value: "90%"
@@ -63,7 +75,7 @@ let environnements = [
         value: "65%"
     }
 ];
-let networks = [
+const networks = [
     {
         label: "LAN",
         value: "90%"
@@ -77,7 +89,7 @@ let networks = [
         value: "50%"
     }
 ];
-let telecoms = [
+const telecoms = [
     {
         label: "Téléphonie IP",
         value: "70%"
@@ -100,7 +112,18 @@ let telecoms = [
     }
 ];
 
-let certifications = [
+const versionning = [
+    {
+        label: "GIT, GitHub",
+        value: "80%"
+    },
+    {
+        label: "Déploiement avec Docker",
+        value: "80%"
+    }
+];
+
+const certifications = [
     {
         url_pdf: "./assets/img/certificats/algo.pdf",
         url_img: "./assets/img/certificats/certif_algo.PNG",
@@ -128,36 +151,43 @@ let certifications = [
 
 ];
 
-let realisations = [
-    { 
-        url_link: "#",
-        title: "HTML / CSS",
-        ssTitle: "BusinessCase",
-        url_img: "./assets/img/build/Picom.PNG",
-        alt_img: "picom"
+const realisations = [
+    {
+        url_link: "http://picom-client.ddns.net",
+        title: "Angular",
+        ssTitle: "Picom Client",
+        url_img: "./assets/img/build/PicomClient.PNG",
+        alt_img: "picom client"
     },
-    { 
+    {
+        url_link: "#",
+        title: "Electron JS",
+        ssTitle: "Picom Admin",
+        url_img: "./assets/img/build/PicomAdmin.PNG",
+        alt_img: "picom admin"
+    },
+    {
         url_link: "img/build/Exercices/Exercice_4/index.html",
         title: "HTML / CSS",
         ssTitle: "TP colivert",
         url_img: "./assets/img/build/colisvert.PNG",
         alt_img: "colivert"
     },
-    { 
+    {
         url_link: "img/build/Exercices/Exercice_5/index.html",
         title: "HTML / CSS",
         ssTitle: "TP Caviar",
         url_img: "./assets/img/build/caviar.PNG",
         alt_img: "Caviar"
     },
-    { 
+    {
         url_link: "img/build/Exercices/Examen/index.html",
         title: "HTML / CSS",
         ssTitle: "Examen Fromage",
         url_img: "./assets/img/build/fromage.PNG",
         alt_img: "Fromage"
     },
-    { 
+    {
         url_link: "#",
         title: "Electron / JS",
         ssTitle: "Examen Electron",
@@ -186,48 +216,53 @@ telecoms.forEach(element => {
     addBar(element.label, element.value, bSkillCol3);
 });
 
+addTitle("Divers", "pt-3", bSkillCol3);
+versionning.forEach(element => {
+    addBar(element.label, element.value, bSkillCol3);
+});
+
 certifications.forEach(element => {
-    let div_col = document.createElement('div');
+    const div_col = document.createElement('div');
     div_col.classList.add("col-lg-4", "col-sm-6", "mb-4");
     rowCertification.append(div_col);
 
-    let divItem = document.createElement('div');
+    const divItem = document.createElement('div');
     divItem.classList.add("certification-item");
     div_col.append(divItem);
 
-    let aLinkPDF = document.createElement('a');
+    const aLinkPDF = document.createElement('a');
     aLinkPDF.classList.add("certification-link");
     aLinkPDF.setAttribute("data-toggle", "modal");
     aLinkPDF.setAttribute("href", element.url_pdf);
     aLinkPDF.setAttribute("target", "_blank");
     divItem.append(aLinkPDF);
-    
-    let divPortfolioHover = document.createElement('div');
+
+    const divPortfolioHover = document.createElement('div');
     divPortfolioHover.classList.add("certification-hover");
     aLinkPDF.append(divPortfolioHover);
 
-    let divPortfolioHoverContent = document.createElement('div');
+    const divPortfolioHoverContent = document.createElement('div');
     divPortfolioHoverContent.classList.add("certification-hover-content");
     divPortfolioHover.append(divPortfolioHoverContent);
 
-    let divIcon = document.createElement('i');
+    const divIcon = document.createElement('i');
     divIcon.classList.add("fas", "fa-plus", "fa-3x");
     divPortfolioHoverContent.append(divIcon);
 
-    let imgCertif= document.createElement('img');
+    const imgCertif = document.createElement('img');
     imgCertif.classList.add("img-fluid");
     imgCertif.setAttribute("src", element.url_img);
     imgCertif.setAttribute("alt", "certif");
     aLinkPDF.append(imgCertif);
 
-    let divPortfolioCaption = document.createElement('div');
+    const divPortfolioCaption = document.createElement('div');
     divPortfolioCaption.classList.add("certification-caption");
 
-    let divPortfolioCaptionHealing = document.createElement('div');
+    const divPortfolioCaptionHealing = document.createElement('div');
     divPortfolioCaptionHealing.classList.add("certification-caption-heading");
     divPortfolioCaptionHealing.innerText = element.category;
 
-    let divPortfolioCaptionSub = document.createElement('div');
+    const divPortfolioCaptionSub = document.createElement('div');
     divPortfolioCaptionSub.classList.add("certification-caption-subheading", "text-muted");
     divPortfolioCaptionSub.innerText = element.title;
 
@@ -237,29 +272,29 @@ certifications.forEach(element => {
 });
 
 realisations.forEach(element => {
-    let divCol3 = document.createElement('div');
+    const divCol3 = document.createElement('div');
     divCol3.classList.add("col-lg-3", "mx-2");
 
-    let bLink = document.createElement('a');
+    const bLink = document.createElement('a');
     bLink.classList.add("build-item");
     bLink.setAttribute("href", element.url_link);
     bLink.setAttribute("target", "_blank");
 
-    let divFondHover = document.createElement('div');
+    const divFondHover = document.createElement('div');
     divFondHover.classList.add("fond-hover");
 
-    let divCaptionContent = document.createElement('div');
+    const divCaptionContent = document.createElement('div');
     divCaptionContent.classList.add("caption-content");
 
-    let divH2 = document.createElement('div');
+    const divH2 = document.createElement('div');
     divH2.classList.add("h2");
     divH2.innerText = element.title;
 
-    let bmb = document.createElement('p');
+    const bmb = document.createElement('p');
     bmb.classList.add("mb-0");
     bmb.innerText = element.ssTitle;
 
-    let img = document.createElement('img');
+    const img = document.createElement('img');
     img.classList.add("img-fluid");
     img.setAttribute("src", element.url_img);
     img.setAttribute("alt", element.title);
@@ -272,18 +307,16 @@ realisations.forEach(element => {
 });
 
 
-
-
 //////////////////////////////////////////////////
 //////////////////// FUNCTIONS ///////////////////
 //////////////////////////////////////////////////
 function addBar(label, value, col) {
-    let bLabel = document.createElement('label');
+    const bLabel = document.createElement('label');
     bLabel.innerText = label;
-    let divProgress = document.createElement('div');
+    const divProgress = document.createElement('div');
     divProgress.classList.add("progress");
-    let divBar = document.createElement('div');
-    divBar.classList.add("progress-bar", "bg-dark");
+    const divBar = document.createElement('div');
+    divBar.classList.add("progress-bar", "progress-bar-striped", "progress-bar-animated", "bg-dark");
     divBar.setAttribute("role", "progressbar");
     divBar.setAttribute("aria-valuenow", "25");
     divBar.setAttribute("aria-valuemin", "0");
@@ -292,10 +325,81 @@ function addBar(label, value, col) {
     divProgress.append(divBar);
     col.append(bLabel, divProgress);
 }
+
 function addTitle(title, param, col) {
-    let bTitle = document.createElement('h3');
-    if (param) { bTitle.classList.add("title", param); }
-    else { bTitle.classList.add("title");}
+    const bTitle = document.createElement('h3');
+    if (param) {
+        bTitle.classList.add("title", param);
+    } else {
+        bTitle.classList.add("title");
+    }
     bTitle.innerText = title;
     col.append(bTitle);
+}
+
+function profileActive(active) {
+    if (active) {
+        btnProfile.classList.add("active");
+    } else {
+        btnProfile.classList.remove("active")
+    }
+}
+
+function whoIamActive(active) {
+    if (active) {
+        btnWhoIAm.classList.add("active");
+    } else {
+        btnWhoIAm.classList.remove("active")
+    }
+}
+
+function myExperienceActive(active) {
+    if (active) {
+        btnExperience.classList.add("active");
+    } else {
+        btnExperience.classList.remove("active");
+    }
+}
+
+function myCertificationActive(active) {
+    if (active) {
+        btnCertification.classList.add("active");
+    } else {
+        btnCertification.classList.remove("active");
+    }
+}
+
+function myBuildActive(active) {
+    if (active) {
+        btnBuild.classList.add("active");
+    } else {
+        btnBuild.classList.remove("active");
+    }
+}
+
+function myHobbiesActive(active) {
+    if (active) {
+        btnHobbies.classList.add("active");
+    } else {
+        btnHobbies.classList.remove("active");
+    }
+}
+
+async function getButterfly() {
+    const baseURL1 = 'http://127.0.0.1:8455/';
+    let data = undefined;
+    const url = baseURL1 + 'public/api/manager';
+    const option = {
+        method: 'POST',
+        body: "CV",
+        headers: {
+            'Content-Type': 'application/json'
+        }};
+
+    // Execute query
+    await fetch(url, option)
+        .then(res => res.json())
+        .then(json =>{
+            data = json.body;
+        })
 }

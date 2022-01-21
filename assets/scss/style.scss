@@ -1,6 +1,6 @@
 @import "partials/variables";
 
-body {
+body#CV {
   background-color: #343a40;
 }
 //////////////////////////////////////////////////
@@ -105,9 +105,9 @@ section#quiSuisje {
         hr.separate {
           border-top: 1px solid coral;
         }
-        h3 {
+        h4 {
           color: cornflowerblue;
-          margin-top: 40px;
+          margin-top: 20px;
           font-size: 1.5em;
         }
       }
@@ -699,6 +699,113 @@ footer {
           }
         }
       }
+    }
+  }
+}
+
+
+/////////////////////////////////////////////
+////////////////// Picom ////////////////////
+/////////////////////////////////////////////
+main#main {
+
+  section#about {
+    div.info {
+      h4 {
+        color: #1a1c20;
+      }
+      ul {
+        color: #333333;
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+body#picom {
+  #synopsis {
+    margin-top: 50px;
+    padding: 50px;
+    .div-logo {
+      img {
+        max-height: 200px;
+      }
+    }
+    #api {
+      .api {
+        font-weight: bold;
+        color: firebrick;
+        font-family: Roboto;
+      }
+      .java {
+        font-weight: bold;
+        color: blueviolet;
+        font-family: Roboto;
+      }
+      .picom {
+        font-weight: bold;
+        color: #1414ae;
+        font-family: Roboto;
+      }
+      .spring {
+        font-weight: bold;
+        color: forestgreen;
+        font-family: Roboto;
+      }
+      .mvc {
+        font-weight: bold;
+        color: saddlebrown;
+        font-family: Roboto;
+      }
+      .hibernate {
+        font-weight: bold;
+        color: dodgerblue;
+        font-family: Roboto;
+      }
+    }
+    #client {
+      .angular {
+        font-weight: bold;
+        color: firebrick;
+        font-family: Roboto;
+      }
+      .client {
+        font-weight: bold;
+        color: #1414ae;
+        font-family: Roboto;
+      }
+      .typescript {
+        font-weight: bold;
+        color: darkgreen;
+        font-family: Roboto;
+      }
+      .mvc {
+        font-weight: bold;
+        color: saddlebrown;
+        font-family: Roboto;
+      }
+    }
+  }
+  #admin {
+    .electron {
+      font-weight: bold;
+      color: firebrick;
+      font-family: Roboto;
+    }
+    .admin {
+      font-weight: bold;
+      color: #1414ae;
+      font-family: Roboto;
+    }
+    .javascript {
+      font-weight: bold;
+      color: darkgreen;
+      font-family: Roboto;
+    }
+    .mvc {
+      font-weight: bold;
+      color: saddlebrown;
+      font-family: Roboto;
     }
   }
 }
