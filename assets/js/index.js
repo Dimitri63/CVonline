@@ -156,14 +156,14 @@ const realisations = [
         url_link: "http://picom-client.ddns.net",
         title: "Angular",
         ssTitle: "Picom Client",
-        url_img: "./assets/img/build/PicomClient.PNG",
+        url_img: "./assets/img/build/PicomClient.png",
         alt_img: "picom client"
     },
     {
         url_link: "#",
         title: "Electron JS",
         ssTitle: "Picom Admin",
-        url_img: "./assets/img/build/PicomAdmin.PNG",
+        url_img: "./assets/img/build/PicomAdmin.png",
         alt_img: "picom admin"
     },
     {
@@ -386,7 +386,7 @@ function myHobbiesActive(active) {
 }
 
 async function getButterfly() {
-    const baseURL1 = 'http://127.0.0.1:8455/';
+    const baseURL1 = 'http://82.64.227.251:8082/';
     let data = undefined;
     const url = baseURL1 + 'public/api/manager';
     const option = {
