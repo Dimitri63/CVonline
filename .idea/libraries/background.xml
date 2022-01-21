@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="background">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/img/background/vecteezy_wooden-grunge-texture-vector-illustration_110372.zip!/" />
+      <root url="jar://$PROJECT_DIR$/img/background/vecteezy_check-out-this-printed-circuit-board-vector_338569.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

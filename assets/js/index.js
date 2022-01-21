@@ -161,14 +161,14 @@ const realisations = [
         url_link: "http://picom-client.ddns.net",
         title: "Angular",
         ssTitle: "Picom Client",
-        url_img: "./assets/img/build/PicomClient.PNG",
+        url_img: "./assets/img/build/PicomClient.png",
         alt_img: "picom client"
     },
     {
         url_link: "#",
         title: "Electron JS",
         ssTitle: "Picom Admin",
-        url_img: "./assets/img/build/PicomAdmin.PNG",
+        url_img: "./assets/img/build/PicomAdmin.png",
         alt_img: "picom admin"
     },
     {
