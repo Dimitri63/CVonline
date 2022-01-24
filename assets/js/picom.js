@@ -63,10 +63,10 @@ const dataDictionary = [
             },
             {
                 name: "roles",
-                description: "Les roles du client",
+                description: "Les rôles du client",
                 type: "Array",
                 size: "",
-                comments: ["NOT NULL", "Default : 'USER'", "role unique"]
+                comments: ["NOT NULL", "Default : 'USER'", "rôle unique"]
             }
         ]
     },
@@ -120,10 +120,10 @@ const dataDictionary = [
             },
             {
                 name: "roles",
-                description: "Les roles de l'admin",
+                description: "Les rôles de l'admin",
                 type: "Array",
                 size: "",
-                comments: ["NOT NULL", "Default : 'ADMIN'", "role unique"]
+                comments: ["NOT NULL", "Default : 'ADMIN'", "rôle unique"]
             }
         ]
     },
@@ -142,7 +142,7 @@ const dataDictionary = [
             },
             {
                 name: "role",
-                description: "Nom du role",
+                description: "Nom du rôle",
                 type: "Alpha Numérique",
                 size: "100 max",
                 comments: ["NOT NULL"]
@@ -333,7 +333,7 @@ const dataDictionary = [
                 description: "Identifiant de la facture",
                 type: "String",
                 size: "11",
-                comments: ["Numéro générer", "NOT NULL", "Exemple : '2365-2365-2658-1254'"]
+                comments: ["Numéro généré", "NOT NULL", "Exemple : '2365-2365-2658-1254'"]
             },
             {
                 name: "createdAt",
