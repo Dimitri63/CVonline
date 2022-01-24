@@ -231,7 +231,7 @@ versionning.forEach(element => {
 
 certifications.forEach(element => {
     const div_col = document.createElement('div');
-    div_col.classList.add("col-lg-4", "col-sm-6", "mb-4");
+    div_col.classList.add("col-lg-3", "col-sm-6", "mb-4");
     rowCertification.append(div_col);
 
     const divItem = document.createElement('div');
