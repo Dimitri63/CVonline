@@ -17,7 +17,7 @@ const btnHobbies = document.querySelector('#my-hobbies');
  * @type {{stateProv: string, city: string, countryCode: string, ipAddress: string, countryName: string, continentName: string, continentCode: string}}
  */
 let identifier = {}
-const baseURL1 = 'http://82.64.227.251:8082/';
+const baseURL1 = 'http://127.0.0.1:8455/';
 identifier = checkIdentifier();
 
 const languages = [
@@ -62,6 +62,7 @@ const languages = [
         value: "20%"
     }
 ];
+
 const environnements = [
     {
         label: "Windows 7",
@@ -80,6 +81,7 @@ const environnements = [
         value: "65%"
     }
 ];
+
 const networks = [
     {
         label: "LAN",
@@ -94,6 +96,7 @@ const networks = [
         value: "50%"
     }
 ];
+
 const telecoms = [
     {
         label: "Téléphonie IP",
