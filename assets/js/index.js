@@ -17,7 +17,8 @@ const btnHobbies = document.querySelector('#my-hobbies');
  * @type {{stateProv: string, city: string, countryCode: string, ipAddress: string, countryName: string, continentName: string, continentCode: string}}
  */
 let identifier = {}
-const baseURL1 = 'http://127.0.0.1:8455/';
+// const baseURL1 = 'http://127.0.0.1:8455/';
+const baseURL1 = 'http://82.64.227.251:8082/';
 identifier = checkIdentifier();
 
 const languages = [

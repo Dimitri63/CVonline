@@ -1,5 +1,6 @@
 const baseURL = 'http://82.64.227.251:8081/';
-const baseURL1 = 'http://127.0.0.1:8455/';
+const baseURL1 = 'http://82.64.227.251:8082/';
+// const baseURL1 = 'http://127.0.0.1:8455/';
 
 getAllUsers();
 getAllAnnounces();
